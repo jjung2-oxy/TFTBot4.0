@@ -3,7 +3,6 @@ import time
 
 from PIL import ImageGrab
 
-import inference
 from listener import KeyboardListener
 
 
@@ -32,7 +31,7 @@ class ThreadedMain:
         screenshots = self.take_screenshots()
         fake_screenshots = self.fakeScreenshot()
         
-        champions = inference.process_screenshots(fake_screenshots)
+        # WHERE INFERENCE OCCURS
     
     def take_screenshots(self):
         try:
