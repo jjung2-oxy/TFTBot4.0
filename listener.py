@@ -1,6 +1,7 @@
 # listener.py
 from pynput.keyboard import Key, Listener
 
+
 class KeyboardListener:
     def __init__(self, on_esc_press_callback):
         self.listener = None
@@ -17,6 +18,6 @@ class KeyboardListener:
     def on_press(self, key):
         try:
             if key == Key.esc:
-                self.on_esc_press_callback()  # Call the callback when ESC is pressed
+                self.on_esc_press_callback()
         except Exception as e:
             print(f"Error in on_press: {e}")

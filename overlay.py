@@ -1,7 +1,9 @@
 import sys
+
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+
 
 class Overlay(QMainWindow):
     
@@ -63,7 +65,7 @@ class Overlay(QMainWindow):
 
     def drawNewTextBox(self, painter, stats_dict):
 
-        # Set the font for the text
+        # FONT AND PAINTER
         font = QFont()
         font.setPointSize(10)
         painter.setFont(font)
@@ -78,7 +80,7 @@ class Overlay(QMainWindow):
         text_y_offset = 20
         y = textbox_y + text_y_offset
 
-        textbox_height = text_y_offset  # Start with the offset as initial height
+        textbox_height = text_y_offset
         for cost, champs in stats_dict.items():
             line = f"Top champions for cost {cost}:"
             max_text_width = max(max_text_width, font_metrics.width(line))

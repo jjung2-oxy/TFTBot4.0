@@ -1,9 +1,11 @@
-# threadedMain.py
-from listener import KeyboardListener
-from PIL import ImageGrab
-import inference
 import threading
 import time
+
+from PIL import ImageGrab
+
+import inference
+from listener import KeyboardListener
+
 
 class ThreadedMain:
     def __init__(self):
@@ -34,6 +36,7 @@ class ThreadedMain:
     
     def take_screenshots(self):
         try:
+            
             # NUMBER OF SCREENSHOTS TO TAKE
             num_shots = 1
 

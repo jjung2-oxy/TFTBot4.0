@@ -1,7 +1,8 @@
-from ultralytics import YOLO
-import torch
 import os
 import tempfile
+
+import torch
+from ultralytics import YOLO
 
 # Initialize the YOLO model
 model = YOLO(r"weights/DEPLOY.pt")

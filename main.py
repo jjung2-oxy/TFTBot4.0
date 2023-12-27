@@ -1,16 +1,22 @@
+import os
+import platform
 import sys
-from PyQt5.QtWidgets import QApplication
-import overlay
 import threading
-import threadedMain 
+
+from PyQt5.QtWidgets import QApplication
+
+import overlay
+import threadedMain
+
 
 class MainApp:
     def __init__(self):
+
         # OVERLAY INIT
-        self.app = QApplication(sys.argv)  
+        self.app = QApplication(sys.argv)
         self.overlay = overlay.Overlay(self.app)
 
-        #  THREADED MAIN INIT
+        # THREADED MAIN INIT
         self.threaded_main = threadedMain.ThreadedMain()
         self.start_threaded_main()
 
@@ -28,7 +34,15 @@ class MainApp:
     def run(self):
         self.overlay.run()
 
+
+def clear_terminal():
+    if platform.system() == "Windows":
+        os.system('cls')  # For Windows
+    else:
+        os.system('clear')  # For Linux/OS X
+
 if __name__ == "__main__":
     app = MainApp()
-    app.run() 
+    app.run()
     app.thread.join()
+    clear_terminal()
