@@ -6,6 +6,8 @@ from PyQt5.QtWidgets import *
 class Overlay(QMainWindow):
     
     close_signal = pyqtSignal() 
+    run_signal = pyqtSignal() 
+
     def __init__(self, app, screen_scaling=1, opacity=1, parent=None):
         # APP INIT
         super().__init__(parent)
@@ -14,7 +16,7 @@ class Overlay(QMainWindow):
         self.opacity = opacity    
 
         # WINDOW ATTRIBUTES
-        self.drawCloseButton()
+        self.drawButtons()
         self.setWindowFlags(Qt.FramelessWindowHint | Qt.WindowStaysOnTopHint)
         self.setAttribute(Qt.WA_TranslucentBackground, True)
         self.setAttribute(Qt.WA_NoSystemBackground, True)
@@ -36,7 +38,7 @@ class Overlay(QMainWindow):
         except Exception as e:
             print(f"Error in paintEvent: {e}", file=sys.stderr)
 
-    def drawCloseButton(self):
+    def drawButtons(self):
         screen = QDesktopWidget().screenGeometry()
         self.resize(screen.width(), screen.height() - 200)
         self.move(0, 0)
@@ -46,8 +48,18 @@ class Overlay(QMainWindow):
         self.pushButton.clicked.connect(self.emit_close_signal)
         self.pushButton.clicked.connect(self.close)
 
+        # Add a "Run" button
+        self.runButton = QPushButton('Run', self)
+        margin = 10  # Margin between buttons
+        runButtonWidth = 80
+        self.runButton.setGeometry(screen.width() - 100 - runButtonWidth - margin, 10, runButtonWidth, 30)
+        self.runButton.clicked.connect(self.emit_run_signal)
+
     def emit_close_signal(self):
         self.close_signal.emit()
+
+    def emit_run_signal(self):
+        self.run_signal.emit()
 
     def drawNewTextBox(self, painter, stats_dict):
 

@@ -6,13 +6,17 @@ import threadedMain
 
 class MainApp:
     def __init__(self):
+        # OVERLAY INIT
         self.app = QApplication(sys.argv)  
         self.overlay = overlay.Overlay(self.app)
 
+        #  THREADED MAIN INIT
         self.threaded_main = threadedMain.ThreadedMain()
         self.start_threaded_main()
 
+        # SIGNAL INIT
         self.overlay.close_signal.connect(self.threaded_main.stop_listener)
+        self.overlay.run_signal.connect(self.threaded_main.predict_on_screenshot)
 
     def start_threaded_main(self):
         self.thread = threading.Thread(target=self.run_threaded_main)

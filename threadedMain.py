@@ -1,31 +1,39 @@
-from pynput.keyboard import Key, Listener
+# threadedMain.py
+from listener import KeyboardListener
+from PIL import ImageGrab
 import threading
+import time
 
 class ThreadedMain:
     def __init__(self):
-        self.listener = None
+        self.keyboard_listener = KeyboardListener(self.doNothing)
 
     def run(self):
-        listener_thread = threading.Thread(target=self.start_listener)
+        listener_thread = threading.Thread(target=self.keyboard_listener.start_listener)
         listener_thread.start()
-        listener_thread.join()  
 
-    def start_listener(self):
-        with Listener(on_press=self.on_press) as self.listener:
-            self.listener.join()  
-    
     def stop_listener(self):
-        if self.listener:
-            self.listener.stop()
+        self.keyboard_listener.stop_listener()
 
-    def on_press(self, key):
+    def predict_on_screenshot(self):
+        screenshots = self.take8_screenshots()
+        # ... add logic to process screenshots ...
+    
+    def doNothing(self):
+        return
+
+    def take8_screenshots(self):
         try:
-            if key == Key.esc:
-                print("ESC pressed... Stopping listener thread")
-                self.listener.stop()
-        except Exception as e:
-            print(f"Error in on_press: {e}")
+            # NUMBER OF SCREENSHOTS TO TAKE
+            num_shots = 1
 
-if __name__ == "__main__":
-    threaded_main = ThreadedMain()
-    threaded_main.run()
+            print("Capturing screenshots for board modeling...")
+            screenshots = []
+            for index in range(num_shots):
+                time.sleep(0.5)  # Delay between screenshots
+                screenshot = ImageGrab.grab()
+                screenshots.append(screenshot)
+                print(f"Captured screenshot #{index + 1}")
+            return screenshots
+        except Exception as e:
+            print(f"Error in take8_screenshots: {e}")
