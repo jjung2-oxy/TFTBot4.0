@@ -4,6 +4,8 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
 class Overlay(QMainWindow):
+    
+    close_signal = pyqtSignal() 
     def __init__(self, app, screen_scaling=1, opacity=1, parent=None):
         # APP INIT
         super().__init__(parent)
@@ -41,7 +43,11 @@ class Overlay(QMainWindow):
         self.pushButton = QPushButton(self)
         self.pushButton.setGeometry(screen.width() - 100, 10, 80, 30)
         self.pushButton.setText("Close")
+        self.pushButton.clicked.connect(self.emit_close_signal)
         self.pushButton.clicked.connect(self.close)
+
+    def emit_close_signal(self):
+        self.close_signal.emit()
 
     def drawNewTextBox(self, painter, stats_dict):
 
