@@ -5,15 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File",
+            "name": "Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env",
+            "args": [
+                "-Xfrozen_modules=off"
+            ],
+        },
+        {
+            "name": "TFTBOT",
             "type": "python",
             "request": "launch",
             "program": "main.py",
             "console": "integratedTerminal",
+            "envFile": "${workspaceFolder}/.env",
             "args": [
                 "-Xfrozen_modules=off"
             ],
-            "justMyCode": true
         }
     ]
 }
