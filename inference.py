@@ -16,13 +16,16 @@ def process_image_and_predict(img):
         cropped_img.save(tmpfile, format='PNG')
         tmpfile_name = tmpfile.name
 
-    try:
-        result = model.predict(tmpfile_name, task='detect', mode='predict', verbose=False, conf=0.25, imgsz=800)
-        os.remove(tmpfile_name)
-        return result[0].names, result[0].boxes.cls, result[0].boxes.xyxy[0]
-    except Exception as e:
-        print(f"Error during prediction: {e}")
-        return ([], [], [])
+        try:
+            result = model.predict(tmpfile_name, task='detect', mode='predict', verbose=False, conf=0.40, imgsz=800)
+
+            print(f"result[0]: {result[0]} result[0].boxes.cls = {result[0].boxes.cls} result[0].boxes.xyxy = {result[0].boxes.xyxy[0]}")
+            return result[0].names, result[0].boxes.cls, result[0].boxes.xyxy[0]
+        
+        except Exception as e:
+            print(f"Error during prediction: {e}")
+            print(f"Returning ([champ_list], [unit_ids], [_])")
+            return ([], [], [])
 
 def get_champion_names(champ_list, unit_ids):
     if isinstance(unit_ids, torch.Tensor):

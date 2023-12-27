@@ -1,6 +1,7 @@
 # threadedMain.py
 from listener import KeyboardListener
 from PIL import ImageGrab
+import inference
 import threading
 import time
 
@@ -15,14 +16,23 @@ class ThreadedMain:
     def stop_listener(self):
         self.keyboard_listener.stop_listener()
 
-    def predict_on_screenshot(self):
-        screenshots = self.take8_screenshots()
-        # ... add logic to process screenshots ...
-    
+
+    # PRIMARY MAIN FUNCTIONS
+
     def doNothing(self):
         return
+    
+    def fakeScreenshot(self):
+        screenshot = ImageGrab.grab()
+        return screenshot
 
-    def take8_screenshots(self):
+    def predict_on_screenshot(self):
+        screenshots = self.take_screenshots()
+        fake_screenshots = self.fakeScreenshot()
+        
+        champions = inference.process_screenshots(fake_screenshots)
+    
+    def take_screenshots(self):
         try:
             # NUMBER OF SCREENSHOTS TO TAKE
             num_shots = 1
