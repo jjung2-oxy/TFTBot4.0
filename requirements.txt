@@ -8,4 +8,5 @@ PyAutoGUI
 pynput
 torch
 python-Levenshtein
-
+python-dotenv
+mss

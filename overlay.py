@@ -16,6 +16,7 @@ class Overlay(QMainWindow):
         self.app = app
         self.screen_scaling = screen_scaling
         self.opacity = opacity    
+        
 
         # WINDOW ATTRIBUTES
         self.drawButtons()
@@ -31,6 +32,10 @@ class Overlay(QMainWindow):
 
     def update_overlay(self, stat_dict):
         self.string_dict = stat_dict
+        self.update()
+
+    def set_annotated_frame(self, qImg):
+        self.annotated_frame = qImg
         self.update()
 
     def paintEvent(self, event=None):
