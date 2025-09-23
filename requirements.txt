@@ -10,3 +10,4 @@ torch
 python-Levenshtein
 python-dotenv
 mss
+tqdm

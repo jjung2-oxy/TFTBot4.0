@@ -1,0 +1,5 @@
+path: data
+train: synth/images,real_pseudo/images
+val:   val/images
+
+names:
