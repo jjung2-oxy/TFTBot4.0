@@ -1,0 +1,559 @@
+{
+  "set_number": null,
+  "count": 79,
+  "champions": [
+    {
+      "name": "Tome of Traits",
+      "apiName": "TFT5_EmblemArmoryKey",
+      "class_key": "Tome_of_Traits",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT5_EmblemArmoryKey.tex",
+      "card": null
+    },
+    {
+      "name": "Completed Item Anvil",
+      "apiName": "TFT_ArmoryKeyCompleted",
+      "class_key": "Completed_Item_Anvil",
+      "icon": null,
+      "card": null
+    },
+    {
+      "name": "Component Anvil",
+      "apiName": "TFT_ArmoryKeyComponent",
+      "class_key": "Component_Anvil",
+      "icon": null,
+      "card": null
+    },
+    {
+      "name": "Artifact Item Anvil",
+      "apiName": "TFT_ArmoryKeyOrnn",
+      "class_key": "Artifact_Item_Anvil",
+      "icon": null,
+      "card": null
+    },
+    {
+      "name": "Support item anvil",
+      "apiName": "TFT_ArmoryKeySupport",
+      "class_key": "Support_item_anvil",
+      "icon": null,
+      "card": null
+    },
+    {
+      "name": "Mercenary Chest",
+      "apiName": "TFT6_MercenaryChest",
+      "class_key": "Mercenary_Chest",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_MercenaryChest.tex",
+      "card": null
+    },
+    {
+      "name": "Aatrox",
+      "apiName": "TFT15_Aatrox",
+      "class_key": "Aatrox",
+      "icon": "ASSETS/Characters/TFT15_Aatrox/Skins/Base/Images/TFT15_Aatrox.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ahri",
+      "apiName": "TFT15_Ahri",
+      "class_key": "Ahri",
+      "icon": "ASSETS/Characters/TFT15_Ahri/Skins/Base/Images/TFT15_Ahri.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Akali",
+      "apiName": "TFT15_Akali",
+      "class_key": "Akali",
+      "icon": "ASSETS/Characters/TFT15_Akali/Skins/Base/Images/TFT15_Akali.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ashe",
+      "apiName": "TFT15_Ashe",
+      "class_key": "Ashe",
+      "icon": "ASSETS/Characters/TFT15_Ashe/Skins/Base/Images/TFT15_Ashe.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Braum",
+      "apiName": "TFT15_Braum",
+      "class_key": "Braum",
+      "icon": "ASSETS/Characters/TFT15_Braum/Skins/Base/Images/TFT15_Braum.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Caitlyn",
+      "apiName": "TFT15_Caitlyn",
+      "class_key": "Caitlyn",
+      "icon": "ASSETS/Characters/TFT15_Caitlyn/Skins/Base/Images/TFT15_Caitlyn.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Darius",
+      "apiName": "TFT15_Darius",
+      "class_key": "Darius",
+      "icon": "ASSETS/Characters/TFT15_Darius/Skins/Base/Images/TFT15_Darius.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ezreal",
+      "apiName": "TFT15_Ezreal",
+      "class_key": "Ezreal",
+      "icon": "ASSETS/Characters/TFT15_Ezreal/Skins/Base/Images/TFT15_Ezreal.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Garen",
+      "apiName": "TFT15_Garen",
+      "class_key": "Garen",
+      "icon": "ASSETS/Characters/TFT15_Garen/Skins/Base/Images/TFT15_Garen.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Gwen",
+      "apiName": "TFT15_Gwen",
+      "class_key": "Gwen",
+      "icon": "ASSETS/Characters/TFT15_Gwen/Skins/Base/Images/TFT15_Gwen.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Janna",
+      "apiName": "TFT15_Janna",
+      "class_key": "Janna",
+      "icon": "ASSETS/Characters/TFT15_Janna/Skins/Base/Images/TFT15_Janna.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Jarvan IV",
+      "apiName": "TFT15_JarvanIV",
+      "class_key": "Jarvan_IV",
+      "icon": "ASSETS/Characters/TFT15_JarvanIV/Skins/Base/Images/TFT15_JarvanIV.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Jayce",
+      "apiName": "TFT15_Jayce",
+      "class_key": "Jayce",
+      "icon": "ASSETS/Characters/TFT15_Jayce/Skins/Base/Images/TFT15_Jayce.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Jhin",
+      "apiName": "TFT15_Jhin",
+      "class_key": "Jhin",
+      "icon": "ASSETS/Characters/TFT15_Jhin/Skins/Base/Images/TFT15_Jhin.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Jinx",
+      "apiName": "TFT15_Jinx",
+      "class_key": "Jinx",
+      "icon": "ASSETS/Characters/TFT15_Jinx/Skins/Base/Images/TFT15_Jinx.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "K'Sante",
+      "apiName": "TFT15_KSante",
+      "class_key": "K_Sante",
+      "icon": "ASSETS/Characters/TFT15_KSante/Skins/Base/Images/TFT15_KSante.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kai'Sa",
+      "apiName": "TFT15_KaiSa",
+      "class_key": "Kai_Sa",
+      "icon": "ASSETS/Characters/TFT15_KaiSa/Skins/Base/Images/TFT15_KaiSa.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kalista",
+      "apiName": "TFT15_Kalista",
+      "class_key": "Kalista",
+      "icon": "ASSETS/Characters/TFT15_Kalista/Skins/Base/Images/TFT15_Kalista.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Katarina",
+      "apiName": "TFT15_Katarina",
+      "class_key": "Katarina",
+      "icon": "ASSETS/Characters/TFT15_Katarina/Skins/Base/Images/TFT15_Katarina.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kayle",
+      "apiName": "TFT15_Kayle",
+      "class_key": "Kayle",
+      "icon": "ASSETS/Characters/TFT15_Kayle/Skins/Base/Images/TFT15_Kayle.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kennen",
+      "apiName": "TFT15_Kennen",
+      "class_key": "Kennen",
+      "icon": "ASSETS/Characters/TFT15_Kennen/Skins/Base/Images/TFT15_Kennen.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kobuko",
+      "apiName": "TFT15_Kobuko",
+      "class_key": "Kobuko",
+      "icon": "ASSETS/Characters/TFT15_Kobuko/Skins/Base/Images/TFT15_Kobuko.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Lee Sin",
+      "apiName": "TFT15_LeeSin",
+      "class_key": "Lee_Sin",
+      "icon": "ASSETS/Characters/TFT15_LeeSin/Skins/Base/Images/TFT15_LeeSin.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Leona",
+      "apiName": "TFT15_Leona",
+      "class_key": "Leona",
+      "icon": "ASSETS/Characters/TFT15_Leona/Skins/Base/Images/TFT15_Leona.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Lulu",
+      "apiName": "TFT15_Lulu",
+      "class_key": "Lulu",
+      "icon": "ASSETS/Characters/TFT15_Lulu/Skins/Base/Images/TFT15_Lulu.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Lux",
+      "apiName": "TFT15_Lux",
+      "class_key": "Lux",
+      "icon": "ASSETS/Characters/TFT15_Lux/Skins/Base/Images/TFT15_Lux.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Malphite",
+      "apiName": "TFT15_Malphite",
+      "class_key": "Malphite",
+      "icon": "ASSETS/Characters/TFT15_Malphite/Skins/Base/Images/TFT15_Malphite.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Malzahar",
+      "apiName": "TFT15_Malzahar",
+      "class_key": "Malzahar",
+      "icon": "ASSETS/Characters/TFT15_Malzahar/Skins/Base/Images/TFT15_Malzahar.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Naafiri",
+      "apiName": "TFT15_Naafiri",
+      "class_key": "Naafiri",
+      "icon": "ASSETS/Characters/TFT15_Naafiri/Skins/Base/Images/TFT15_Naafiri.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Poppy",
+      "apiName": "TFT15_Poppy",
+      "class_key": "Poppy",
+      "icon": "ASSETS/Characters/TFT15_Poppy/Skins/Base/Images/TFT15_Poppy.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Rakan",
+      "apiName": "TFT15_Rakan",
+      "class_key": "Rakan",
+      "icon": "ASSETS/Characters/TFT15_Rakan/Skins/Base/Images/TFT15_Rakan.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Rell",
+      "apiName": "TFT15_Rell",
+      "class_key": "Rell",
+      "icon": "ASSETS/Characters/TFT15_Rell/Skins/Base/Images/TFT15_Rell.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ryze",
+      "apiName": "TFT15_Ryze",
+      "class_key": "Ryze",
+      "icon": "ASSETS/Characters/TFT15_Ryze/Skins/Base/Images/TFT15_Ryze.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Samira",
+      "apiName": "TFT15_Samira",
+      "class_key": "Samira",
+      "icon": "ASSETS/Characters/TFT15_Samira/Skins/Base/Images/TFT15_Samira.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Seraphine",
+      "apiName": "TFT15_Seraphine",
+      "class_key": "Seraphine",
+      "icon": "ASSETS/Characters/TFT15_Seraphine/Skins/Base/Images/TFT15_Seraphine.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Sett",
+      "apiName": "TFT15_Sett",
+      "class_key": "Sett",
+      "icon": "ASSETS/Characters/TFT15_Sett/Skins/Base/Images/TFT15_Sett.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Swain",
+      "apiName": "TFT15_Swain",
+      "class_key": "Swain",
+      "icon": "ASSETS/Characters/TFT15_Swain/Skins/Base/Images/TFT15_Swain.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Syndra",
+      "apiName": "TFT15_Syndra",
+      "class_key": "Syndra",
+      "icon": "ASSETS/Characters/TFT15_Syndra/Skins/Base/Images/TFT15_Syndra.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Udyr",
+      "apiName": "TFT15_Udyr",
+      "class_key": "Udyr",
+      "icon": "ASSETS/Characters/TFT15_Udyr/Skins/Base/Images/TFT15_Udyr.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Varus",
+      "apiName": "TFT15_Varus",
+      "class_key": "Varus",
+      "icon": "ASSETS/Characters/TFT15_Varus/Skins/Base/Images/TFT15_Varus.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Viego",
+      "apiName": "TFT15_Viego",
+      "class_key": "Viego",
+      "icon": "ASSETS/Characters/TFT15_Viego/Skins/Base/Images/TFT15_Viego.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Xayah",
+      "apiName": "TFT15_Xayah",
+      "class_key": "Xayah",
+      "icon": "ASSETS/Characters/TFT15_Xayah/Skins/Base/Images/TFT15_Xayah.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Xin Zhao",
+      "apiName": "TFT15_XinZhao",
+      "class_key": "Xin_Zhao",
+      "icon": "ASSETS/Characters/TFT15_XinZhao/Skins/Base/Images/TFT15_XinZhao.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Yasuo",
+      "apiName": "TFT15_Yasuo",
+      "class_key": "Yasuo",
+      "icon": "ASSETS/Characters/TFT15_Yasuo/Skins/Base/Images/TFT15_Yasuo.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Yone",
+      "apiName": "TFT15_Yone",
+      "class_key": "Yone",
+      "icon": "ASSETS/Characters/TFT15_Yone/Skins/Base/Images/TFT15_Yone.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Yuumi",
+      "apiName": "TFT15_Yuumi",
+      "class_key": "Yuumi",
+      "icon": "ASSETS/Characters/TFT15_Yuumi/Skins/Base/Images/TFT15_Yuumi.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Zac",
+      "apiName": "TFT15_Zac",
+      "class_key": "Zac",
+      "icon": "ASSETS/Characters/TFT15_Zac/Skins/Base/Images/TFT15_Zac.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ziggs",
+      "apiName": "TFT15_Ziggs",
+      "class_key": "Ziggs",
+      "icon": "ASSETS/Characters/TFT15_Ziggs/Skins/Base/Images/TFT15_Ziggs.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Volibear",
+      "apiName": "TFT15_Volibear",
+      "class_key": "Volibear",
+      "icon": "ASSETS/Characters/TFT15_Volibear/Skins/Base/Images/TFT15_Volibear.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Kog'Maw",
+      "apiName": "TFT15_KogMaw",
+      "class_key": "Kog_Maw",
+      "icon": "ASSETS/Characters/TFT15_KogMaw/Skins/Base/Images/TFT15_KogMaw.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Smolder",
+      "apiName": "TFT15_Smolder",
+      "class_key": "Smolder",
+      "icon": "ASSETS/Characters/TFT15_Smolder/Skins/Base/Images/TFT15_Smolder.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Senna",
+      "apiName": "TFT15_Senna",
+      "class_key": "Senna",
+      "icon": "ASSETS/Characters/TFT15_Senna/Skins/Base/Images/TFT15_Senna.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Lucian",
+      "apiName": "TFT15_Lucian",
+      "class_key": "Lucian",
+      "icon": "ASSETS/Characters/TFT15_Lucian/Skins/Base/Images/TFT15_Lucian.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Gangplank",
+      "apiName": "TFT15_Gangplank",
+      "class_key": "Gangplank",
+      "icon": "ASSETS/Characters/TFT15_Gangplank/Skins/Base/Images/TFT15_Gangplank.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Dr. Mundo",
+      "apiName": "TFT15_DrMundo",
+      "class_key": "Dr_Mundo",
+      "icon": "ASSETS/Characters/TFT15_DrMundo/Skins/Base/Images/TFT15_DrMundo.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Gnar",
+      "apiName": "TFT15_Gnar",
+      "class_key": "Gnar",
+      "icon": "ASSETS/Characters/TFT15_Gnar/Skins/Base/Images/TFT15_Gnar.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Karma",
+      "apiName": "TFT15_Karma",
+      "class_key": "Karma",
+      "icon": "ASSETS/Characters/TFT15_Karma/Skins/Base/Images/TFT15_Karma.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Vi",
+      "apiName": "TFT15_Vi",
+      "class_key": "Vi",
+      "icon": "ASSETS/Characters/TFT15_Vi/Skins/Base/Images/TFT15_Vi.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "The Mighty Mech",
+      "apiName": "TFT15_Galio",
+      "class_key": "The_Mighty_Mech",
+      "icon": "ASSETS/Characters/TFT15_Galio/Skins/Base/Images/TFT15_Galio.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Sivir",
+      "apiName": "TFT15_Sivir",
+      "class_key": "Sivir",
+      "icon": "ASSETS/Characters/TFT15_Sivir/Skins/Base/Images/TFT15_Sivir.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Twisted Fate",
+      "apiName": "TFT15_TwistedFate",
+      "class_key": "Twisted_Fate",
+      "icon": "ASSETS/Characters/TFT15_TwistedFate/Skins/Base/Images/TFT15_TwistedFate.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Shen",
+      "apiName": "TFT15_Shen",
+      "class_key": "Shen",
+      "icon": "ASSETS/Characters/TFT15_Shen/Skins/Base/Images/TFT15_Shen.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Rammus",
+      "apiName": "TFT15_Rammus",
+      "class_key": "Rammus",
+      "icon": "ASSETS/Characters/TFT15_Rammus/Skins/Base/Images/TFT15_Rammus.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Zyra",
+      "apiName": "TFT15_Zyra",
+      "class_key": "Zyra",
+      "icon": "ASSETS/Characters/TFT15_Zyra/Skins/Base/Images/TFT15_Zyra.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Grasping Root",
+      "apiName": "TFT15_ZyraGraspingPlant",
+      "class_key": "Grasping_Root",
+      "icon": "ASSETS/Characters/TFT15_Zyra/Skins/Base/Images/TFT15_Zyra.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Deadly Spine",
+      "apiName": "TFT15_ZyraThornPlant",
+      "class_key": "Deadly_Spine",
+      "icon": "ASSETS/Characters/TFT15_Zyra/Skins/Base/Images/TFT15_Zyra.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Neeko",
+      "apiName": "TFT15_Neeko",
+      "class_key": "Neeko",
+      "icon": "ASSETS/Characters/TFT15_Neeko/Skins/Base/Images/TFT15_Neeko.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Ekko",
+      "apiName": "TFT15_Ekko",
+      "class_key": "Ekko",
+      "icon": "ASSETS/Characters/TFT15_Ekko/Skins/Base/Images/TFT15_Ekko.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Test Cost",
+      "apiName": "TFT15_PetCreepyCat",
+      "class_key": "Test_Cost",
+      "icon": "ASSETS/Characters/TFT15_Shiro/Skins/Base/Images/Shiro_Splash.TFT_Set15.tex",
+      "card": null
+    },
+    {
+      "name": "Golem",
+      "apiName": "TFT_BlueGolem",
+      "class_key": "Golem",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_BlueGolem.tex",
+      "card": null
+    },
+    {
+      "name": "Rift Scuttler",
+      "apiName": "TFT9_SLIME_Crab",
+      "class_key": "Rift_Scuttler",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT_ScuttleCrab.TFT_Set13.tex",
+      "card": null
+    },
+    {
+      "name": "Training Dummy",
+      "apiName": "TFT_TrainingDummy",
+      "class_key": "Training_Dummy",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFTDebug_Dummy.tex",
+      "card": null
+    },
+    {
+      "name": "Mercenary Chest",
+      "apiName": "TFT6_MercenaryChest",
+      "class_key": "Mercenary_Chest",
+      "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT6_MercenaryChest.tex",
+      "card": null
+    }
+  ]
+}

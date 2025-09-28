@@ -1,0 +1,454 @@
+{
+  "set_number": null,
+  "count": 64,
+  "champions": [
+    {
+      "characterName": "TFT15_Aatrox",
+      "apiName": "TFT15_Aatrox",
+      "name": "Aatrox",
+      "cost": 1,
+      "traits": ["Mighty Mech", "Juggernaut", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_Ahri",
+      "apiName": "TFT15_Ahri",
+      "name": "Ahri",
+      "cost": 3,
+      "traits": ["Star Guardian", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Akali",
+      "apiName": "TFT15_Akali",
+      "name": "Akali",
+      "cost": 4,
+      "traits": ["Supreme Cells", "Executioner"]
+    },
+    {
+      "characterName": "TFT15_Ashe",
+      "apiName": "TFT15_Ashe",
+      "name": "Ashe",
+      "cost": 4,
+      "traits": ["Crystal Gambit", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_Braum",
+      "apiName": "TFT15_Braum",
+      "name": "Braum",
+      "cost": 5,
+      "traits": ["The Champ", "Luchador", "Bastion"]
+    },
+    {
+      "characterName": "TFT15_Caitlyn",
+      "apiName": "TFT15_Caitlyn",
+      "name": "Caitlyn",
+      "cost": 3,
+      "traits": ["Battle Academia", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_Darius",
+      "apiName": "TFT15_Darius",
+      "name": "Darius",
+      "cost": 3,
+      "traits": ["Supreme Cells", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_Ezreal",
+      "apiName": "TFT15_Ezreal",
+      "name": "Ezreal",
+      "cost": 1,
+      "traits": ["Battle Academia", "Prodigy"]
+    },
+    {
+      "characterName": "TFT15_Garen",
+      "apiName": "TFT15_Garen",
+      "name": "Garen",
+      "cost": 1,
+      "traits": ["Battle Academia", "Bastion"]
+    },
+    {
+      "characterName": "TFT15_Gwen",
+      "apiName": "TFT15_Gwen",
+      "name": "Gwen",
+      "cost": 5,
+      "traits": ["Soul Fighter", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Janna",
+      "apiName": "TFT15_Janna",
+      "name": "Janna",
+      "cost": 2,
+      "traits": ["Crystal Gambit", "Protector", "Strategist"]
+    },
+    {
+      "characterName": "TFT15_JarvanIV",
+      "apiName": "TFT15_JarvanIV",
+      "name": "Jarvan IV",
+      "cost": 4,
+      "traits": ["Mighty Mech", "Strategist"]
+    },
+    {
+      "characterName": "TFT15_Jayce",
+      "apiName": "TFT15_Jayce",
+      "name": "Jayce",
+      "cost": 3,
+      "traits": ["Battle Academia", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_Jhin",
+      "apiName": "TFT15_Jhin",
+      "name": "Jhin",
+      "cost": 2,
+      "traits": ["Wraith", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_Jinx",
+      "apiName": "TFT15_Jinx",
+      "name": "Jinx",
+      "cost": 4,
+      "traits": ["Star Guardian", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_KSante",
+      "apiName": "TFT15_KSante",
+      "name": "K'Sante",
+      "cost": 4,
+      "traits": ["Wraith", "Protector"]
+    },
+    {
+      "characterName": "TFT15_KaiSa",
+      "apiName": "TFT15_KaiSa",
+      "name": "Kai'Sa",
+      "cost": 2,
+      "traits": ["Supreme Cells", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_Kalista",
+      "apiName": "TFT15_Kalista",
+      "name": "Kalista",
+      "cost": 1,
+      "traits": ["Soul Fighter", "Executioner"]
+    },
+    {
+      "characterName": "TFT15_Katarina",
+      "apiName": "TFT15_Katarina",
+      "name": "Katarina",
+      "cost": 2,
+      "traits": ["Battle Academia", "Executioner"]
+    },
+    {
+      "characterName": "TFT15_Kayle",
+      "apiName": "TFT15_Kayle",
+      "name": "Kayle",
+      "cost": 1,
+      "traits": ["Wraith", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_Kennen",
+      "apiName": "TFT15_Kennen",
+      "name": "Kennen",
+      "cost": 1,
+      "traits": ["Supreme Cells", "Protector", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Kobuko",
+      "apiName": "TFT15_Kobuko",
+      "name": "Kobuko",
+      "cost": 2,
+      "traits": ["Mentor", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_LeeSin",
+      "apiName": "TFT15_LeeSin",
+      "name": "Lee Sin",
+      "cost": 5,
+      "traits": ["Stance Master"]
+    },
+    {
+      "characterName": "TFT15_Leona",
+      "apiName": "TFT15_Leona",
+      "name": "Leona",
+      "cost": 4,
+      "traits": ["Battle Academia", "Bastion"]
+    },
+    {
+      "characterName": "TFT15_Lulu",
+      "apiName": "TFT15_Lulu",
+      "name": "Lulu",
+      "cost": 3,
+      "traits": ["Monster Trainer"]
+    },
+    {
+      "characterName": "TFT15_Lux",
+      "apiName": "TFT15_Lux",
+      "name": "Lux",
+      "cost": 2,
+      "traits": ["Soul Fighter", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Malphite",
+      "apiName": "TFT15_Malphite",
+      "name": "Malphite",
+      "cost": 1,
+      "traits": ["The Crew", "Protector"]
+    },
+    {
+      "characterName": "TFT15_Malzahar",
+      "apiName": "TFT15_Malzahar",
+      "name": "Malzahar",
+      "cost": 3,
+      "traits": ["Wraith", "Prodigy"]
+    },
+    {
+      "characterName": "TFT15_Naafiri",
+      "apiName": "TFT15_Naafiri",
+      "name": "Naafiri",
+      "cost": 1,
+      "traits": ["Soul Fighter", "Juggernaut"]
+    },
+    {
+      "characterName": "TFT15_Poppy",
+      "apiName": "TFT15_Poppy",
+      "name": "Poppy",
+      "cost": 4,
+      "traits": ["Star Guardian", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_Rakan",
+      "apiName": "TFT15_Rakan",
+      "name": "Rakan",
+      "cost": 2,
+      "traits": ["Battle Academia", "Protector"]
+    },
+    {
+      "characterName": "TFT15_Rell",
+      "apiName": "TFT15_Rell",
+      "name": "Rell",
+      "cost": 1,
+      "traits": ["Star Guardian", "Bastion"]
+    },
+    {
+      "characterName": "TFT15_Ryze",
+      "apiName": "TFT15_Ryze",
+      "name": "Ryze",
+      "cost": 4,
+      "traits": ["Mentor", "Executioner", "Strategist"]
+    },
+    {
+      "characterName": "TFT15_Samira",
+      "apiName": "TFT15_Samira",
+      "name": "Samira",
+      "cost": 4,
+      "traits": ["Soul Fighter", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_Seraphine",
+      "apiName": "TFT15_Seraphine",
+      "name": "Seraphine",
+      "cost": 5,
+      "traits": ["Star Guardian", "Prodigy"]
+    },
+    {
+      "characterName": "TFT15_Sett",
+      "apiName": "TFT15_Sett",
+      "name": "Sett",
+      "cost": 4,
+      "traits": ["Soul Fighter", "Juggernaut"]
+    },
+    {
+      "characterName": "TFT15_Swain",
+      "apiName": "TFT15_Swain",
+      "name": "Swain",
+      "cost": 3,
+      "traits": ["Crystal Gambit", "Bastion", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Syndra",
+      "apiName": "TFT15_Syndra",
+      "name": "Syndra",
+      "cost": 1,
+      "traits": ["Crystal Gambit", "Star Guardian", "Prodigy"]
+    },
+    {
+      "characterName": "TFT15_Udyr",
+      "apiName": "TFT15_Udyr",
+      "name": "Udyr",
+      "cost": 3,
+      "traits": ["Mentor", "Juggernaut", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_Varus",
+      "apiName": "TFT15_Varus",
+      "name": "Varus",
+      "cost": 5,
+      "traits": ["Wraith", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_Viego",
+      "apiName": "TFT15_Viego",
+      "name": "Viego",
+      "cost": 3,
+      "traits": ["Soul Fighter", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_Xayah",
+      "apiName": "TFT15_Xayah",
+      "name": "Xayah",
+      "cost": 2,
+      "traits": ["Star Guardian", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_XinZhao",
+      "apiName": "TFT15_XinZhao",
+      "name": "Xin Zhao",
+      "cost": 2,
+      "traits": ["Soul Fighter", "Bastion"]
+    },
+    {
+      "characterName": "TFT15_Yasuo",
+      "apiName": "TFT15_Yasuo",
+      "name": "Yasuo",
+      "cost": 3,
+      "traits": ["Mentor", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_Yone",
+      "apiName": "TFT15_Yone",
+      "name": "Yone",
+      "cost": 5,
+      "traits": ["Mighty Mech", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_Yuumi",
+      "apiName": "TFT15_Yuumi",
+      "name": "Yuumi",
+      "cost": 4,
+      "traits": ["Battle Academia", "Prodigy"]
+    },
+    {
+      "characterName": "TFT15_Zac",
+      "apiName": "TFT15_Zac",
+      "name": "Zac",
+      "cost": 1,
+      "traits": ["Wraith", "Heavyweight"]
+    },
+    {
+      "characterName": "TFT15_Ziggs",
+      "apiName": "TFT15_Ziggs",
+      "name": "Ziggs",
+      "cost": 3,
+      "traits": ["The Crew", "Strategist"]
+    },
+    {
+      "characterName": "TFT15_Volibear",
+      "apiName": "TFT15_Volibear",
+      "name": "Volibear",
+      "cost": 4,
+      "traits": ["Luchador", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_KogMaw",
+      "apiName": "TFT15_KogMaw",
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": ["Monster Trainer"]
+    },
+    {
+      "characterName": "TFT15_Smolder",
+      "apiName": "TFT15_Smolder",
+      "name": "Smolder",
+      "cost": 3,
+      "traits": ["Monster Trainer"]
+    },
+    {
+      "characterName": "TFT15_Senna",
+      "apiName": "TFT15_Senna",
+      "name": "Senna",
+      "cost": 3,
+      "traits": ["Mighty Mech", "Executioner"]
+    },
+    {
+      "characterName": "TFT15_Lucian",
+      "apiName": "TFT15_Lucian",
+      "name": "Lucian",
+      "cost": 1,
+      "traits": ["Mighty Mech", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Gangplank",
+      "apiName": "TFT15_Gangplank",
+      "name": "Gangplank",
+      "cost": 2,
+      "traits": ["Mighty Mech", "Duelist"]
+    },
+    {
+      "characterName": "TFT15_DrMundo",
+      "apiName": "TFT15_DrMundo",
+      "name": "Dr. Mundo",
+      "cost": 2,
+      "traits": ["Luchador", "Juggernaut"]
+    },
+    {
+      "characterName": "TFT15_Gnar",
+      "apiName": "TFT15_Gnar",
+      "name": "Gnar",
+      "cost": 1,
+      "traits": ["Luchador", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_Karma",
+      "apiName": "TFT15_Karma",
+      "name": "Karma",
+      "cost": 4,
+      "traits": ["Mighty Mech", "Sorcerer"]
+    },
+    {
+      "characterName": "TFT15_Vi",
+      "apiName": "TFT15_Vi",
+      "name": "Vi",
+      "cost": 2,
+      "traits": ["Crystal Gambit", "Juggernaut"]
+    },
+    {
+      "characterName": "TFT15_Sivir",
+      "apiName": "TFT15_Sivir",
+      "name": "Sivir",
+      "cost": 1,
+      "traits": ["The Crew", "Sniper"]
+    },
+    {
+      "characterName": "TFT15_TwistedFate",
+      "apiName": "TFT15_TwistedFate",
+      "name": "Twisted Fate",
+      "cost": 5,
+      "traits": ["Rogue Captain", "The Crew"]
+    },
+    {
+      "characterName": "TFT15_Shen",
+      "apiName": "TFT15_Shen",
+      "name": "Shen",
+      "cost": 2,
+      "traits": ["The Crew", "Bastion", "Edgelord"]
+    },
+    {
+      "characterName": "TFT15_Rammus",
+      "apiName": "TFT15_Rammus",
+      "name": "Rammus",
+      "cost": 3,
+      "traits": ["Monster Trainer"]
+    },
+    {
+      "characterName": "TFT15_Zyra",
+      "apiName": "TFT15_Zyra",
+      "name": "Zyra",
+      "cost": 5,
+      "traits": ["Crystal Gambit", "Rosemother"]
+    },
+    {
+      "characterName": "TFT15_Neeko",
+      "apiName": "TFT15_Neeko",
+      "name": "Neeko",
+      "cost": 3,
+      "traits": ["Star Guardian", "Protector"]
+    }
+  ]
+}
